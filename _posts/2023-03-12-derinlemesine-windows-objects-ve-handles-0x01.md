@@ -10,7 +10,7 @@ tags: [os-dev, windows, internal, object, handle]
 
 # Objects ve Handles Bağlantısı
 
-Windows nesneler kümesinden oluşan bir işletim sistemidir. Object, bir sistem kaynağını (resource) temsil eden bir data structure’dır. Uygulamalar, object data’larına 
+Windows nesneler kümesinden oluşan bir işletim sistemidir. Object, bir sistem kaynağını (resource) temsil eden bir data structure’dır. Uygulamalar, object data’larına veya bir object’in temsil ettiği sistem kaynağına doğrudan erişemez. Uygulamaların sistem kaynağını incelemek veya değiştirmek için kullanabileceği bir object handle edinmesi gerekir. Yani Bir process, object’i kullanmadan önce o object’in handle’ına sahip olmalıdır. Çünkü handle’lar (yalnızca) hedef object’lerin türünü/bellekteki adresini belirlemeye yardımcı olur.
 
 Her handle'ın sistem tarafından tutulan bir tabloda bir girişi bulunur ve bu giriş handle'ın ilişkili olduğu objenin adresini, objenin türünü, handle'ın erişim haklarını ve diğer özelliklerini belirler. Bu tabloya "Object Table" denir ve Windows işletim sistemi tarafından yönetilir. Object Table, Windows işletim sistemi tarafından yönetilen bir veri yapısıdır ve normal kullanıcılar tarafından direk olarak görüntülenemez. Ancak, Windows API'leri veya benzer araçlar kullanarak, bu veri yapısındaki bilgilerin bir kısmına erişmek mümkün olabilir. Yazının başlarında fazla internal'e inmeden aşağıdaki gibi Object Table'ın structure'ı görüntülenebilir:
 
