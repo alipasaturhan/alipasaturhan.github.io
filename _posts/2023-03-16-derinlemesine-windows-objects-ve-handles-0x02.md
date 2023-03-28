@@ -2,7 +2,7 @@
 layout: post
 title: Derinlemesine Windows Objects ve Handles (0x02)
 date: 2023-03-16 22:28 +0300
-categories: [Operating System Development, Windows]
+categories: [Reverse Engineering, Windows]
 tags: [reversing, windows, internal, object, handle]
 ---
 
