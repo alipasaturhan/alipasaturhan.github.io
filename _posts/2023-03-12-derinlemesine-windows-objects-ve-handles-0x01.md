@@ -3,7 +3,7 @@ layout: post
 title: Derinlemesine Windows Objects ve Handles (0x01)
 date: 2023-03-12 00:18 +0300
 categories: [Operating System Development, Windows]
-tags: [os-dev, windows, internal, object, handle]
+tags: [reversing, windows, internal, object, handle]
 ---
 
 ![banner](/assets/img/2023-03-12-derinlemesine-windows-objects-ve-handles-0x01/banner.png)
@@ -698,14 +698,14 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
 
 2. Windows 10 System Programming Part 1 (2020), Leanpub
 
-3. [Understanding SAL | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/code-quality/understanding-sal?view=msvc-170#sal-basics)
+3. [Understanding SAL \| Microsoft Learn](https://learn.microsoft.com/en-us/cpp/code-quality/understanding-sal?view=msvc-170#sal-basics)
 
-4. [Handleapi.h header - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/api/handleapi/#functions)
+4. [Handleapi.h header - Win32 apps \| Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/api/handleapi/#functions)
 
-5. [Object Categories - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/sysinfo/object-categories)
+5. [Object Categories - Win32 apps \| Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/sysinfo/object-categories)
 
-6. [Kernel Objects - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/sysinfo/kernel-objects)
+6. [Kernel Objects - Win32 apps \| Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/sysinfo/kernel-objects)
 
-7. [User Objects - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/sysinfo/user-objects)
+7. [User Objects - Win32 apps \| Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/sysinfo/user-objects)
 
-8. [Securable Objects - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/secauthz/securable-objects)
+8. [Securable Objects - Win32 apps \| Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/secauthz/securable-objects)
