@@ -2,8 +2,8 @@
 layout: post
 title: Derinlemesine Windows Objects ve Handles (0x01)
 date: 2023-03-12 00:18 +0300
-categories: [Reverse Engineering, Windows]
-tags: [reversing, windows, internal, object, handle]
+categories: [Derinlemesine Windows Serisi, Objects ve Handles]
+tags: [windows, internal, object, handle]
 ---
 
 ![banner](/assets/img/2023-03-12-derinlemesine-windows-objects-ve-handles-0x01/banner.png)
