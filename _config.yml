@@ -19,9 +19,9 @@ timezone: Europe/Istanbul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 0x0ryctes                          # the main title
+title: P4WN3R                          # the main title
 
-tagline: Kendi halinde bir reverser...   # it will display as the sub-title
+tagline: kendi halinde bir reverser   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
 
@@ -32,7 +32,7 @@ github:
   username: alipasaturhan             # change to your github username
 
 twitter:
-  username: AlipasaTurhan            # change to your twitter username
+  username: alipasaturhan            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,9 +41,9 @@ social:
   email: alipasaturhan@protonmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/AlipasaTurhan      # change to your twitter homepage
+    - https://twitter.com/alipasaturhan      # change to your twitter homepage
     - https://github.com/alipasaturhan       # change to your github homepage
-    - https://www.linkedin.com/in/ali-paşa-turhan    # Uncomment below to add more social links
+    - https://www.linkedin.com/in/alipasaturhan    # Uncomment below to add more social links
     # - https://www.facebook.com/username
     
 
