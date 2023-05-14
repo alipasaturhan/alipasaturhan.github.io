@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows Portable Executable (PE) Dosyaları
-date: 2023-05-15 01:08 +0300
+date: 2023-04-09 15:02 +0300
 categories: [Dosya Yapıları, Portable Executable (PE)]
 tags: [windows, portable-executable, file-structure]
 ---
