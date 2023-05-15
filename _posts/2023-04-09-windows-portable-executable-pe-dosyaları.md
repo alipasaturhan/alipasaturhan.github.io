@@ -866,7 +866,7 @@ Burada aslında _IMAGE_IMPORT_BY_NAME yapısını görüyorsunuz.
 
 Yine dilerseniz XNTSV uygulamasını kullanarak bu bölüme erişebilirsiniz:
 
-![delay_import_analysis_01.PNG](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/delay_import_analysis_01.png)
+![delay_import_analysis_01.png](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/delay_import_analysis_01.png)
 
 # PE: Export
 
@@ -918,11 +918,11 @@ Normalde PE dosyalarının Export Directory’leri boş olduğundan, bizim impor
 
 - Belleğe map eden bir PE dosyası için önce kullandığı modüllere XNTSV ile bakalım.
 
-![export_memory_analysis_pe_modules_01.PNG](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/export_memory_analysis_pe_modules_01.png)
+![export_memory_analysis_pe_modules_01.png](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/export_memory_analysis_pe_modules_01.png)
 
 - Herhangi bir debugger ile process’e attach edip moduller kısmından bulunabilir.
 
-![export_memory_analysis_pe_modules_02.PNG](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/export_memory_analysis_pe_modules_02.png)
+![export_memory_analysis_pe_modules_02.png](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/export_memory_analysis_pe_modules_02.png)
 
 İstenilen modüllerden birisinin adresi kopyalanıp windbg ile analiz edilebilir. Bu yazıda export tablosu incelenirken KERNEL32.dll ele alınmıştır.
 
@@ -998,7 +998,7 @@ lkd> dps 00007FFAEC500000+00025db0
 
 Bunları daha kolay görebilmek için x32/64dbg kullanabilirsiniz:
 
-![export_memory_analysis_pe_modules_03.PNG](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/export_memory_analysis_pe_modules_03.png)
+![export_memory_analysis_pe_modules_03.png](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/export_memory_analysis_pe_modules_03.png)
 
 # ~~PE: Relocation~~
 
