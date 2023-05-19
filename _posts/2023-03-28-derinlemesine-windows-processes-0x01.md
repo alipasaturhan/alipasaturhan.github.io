@@ -415,4 +415,4 @@ int main() {
 5. [Understand and manage Windows 10 virtual memory \| TechTarget](https://www.techtarget.com/searchenterprisedesktop/tip/Understand-and-manage-Windows-10-virtual-memory)
 6. [Parent Process vs. Creator Process - Pavel Yosifovich](https://scorpiosoftware.net/2021/01/10/parent-process-vs-creator-process/)
 7. [Profile: Ali Paşa Turhan \| Microsoft Learn](https://learn.microsoft.com/en-us/users/ali-pasa-turhan/collections/nk4xtpne804wo6)
-8. [Derinlemesine Windows Objects ve Handles (0x01) \| 0x0ryctes](https://alipasaturhan.github.io/posts/derinlemesine-windows-objects-ve-handles-0x01/)
+8. [Derinlemesine Windows Objects ve Handles (0x01) \| 0x0ryctes](/posts/derinlemesine-windows-objects-ve-handles-0x01/)

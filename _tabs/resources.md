@@ -17,3 +17,8 @@ order: 3
 5. [Official Windows PE&COFF File Format](/assets/docs/file-structures/portable-executable-pe/windows_pe_file_format_01.doc)
 
 6. [Windows PE File User&Kernel Space Layout](/assets/docs/file-structures/portable-executable-pe/windows_pe_file_user_kernel_space_layout.pdf)
+
+## LNK Structure
+
+1. [CSIDL Flag List](/assets/docs/file-structures/shell-link-lnk/csidl_flag_list.txt)
+2. [Shell Link Flag List](/assets/docs/file-structures/shell-link-lnk/shell_link_flags.txt)
