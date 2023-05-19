@@ -487,7 +487,7 @@ LECmd uygulamasını kullanarak çok güzel bir çıktı alabilirsiniz:
 
 ![property_store_data_block_01.png](/assets/img/2023-05-15-shell-link-lnk-binary-dosya-formatı/property_store_data_block_01.png)
 
-Burada geçen metadata türlerini görmek için [libfwps/Windows Property Store](https://github.com/libyal/libfwps/blob/main/documentation/Windows%20Property%20Store%20format.asciidoc) veya aslında [propkey.h](https://github.com/tpn/winsdk-10/blob/master/Include/10.0.14393.0/um/propkey.h) dosyasına bakabilirsiniz.
+Burada geçen metadata türlerini görmek için [libfwps/Windows Property Store](https://github.com/libyal/libfwps/blob/main/documentation/Windows%20Property%20Store%20format.asciidoc) veya [propkey.h](https://github.com/tpn/winsdk-10/blob/master/Include/10.0.14393.0/um/propkey.h) dosyasına bakabilirsiniz.
 
 > Ayrıca SID'nin (user's security identifier) önemi büyük olduğundan nasıl çalıştığını görmekte fayda var: [Security identifiers](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers)
 

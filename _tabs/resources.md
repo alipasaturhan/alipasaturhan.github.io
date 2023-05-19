@@ -20,5 +20,6 @@ order: 3
 
 ## LNK Structure
 
-1. [CSIDL Flag List](/assets/docs/file-structures/shell-link-lnk/csidl_flag_list.txt)
-2. [Shell Link Flag List](/assets/docs/file-structures/shell-link-lnk/shell_link_flags.txt)
+1. [LNK File Format](/assets/docs/file-structures/shell-link-lnk/lnk_file_format.svg)
+2. [CSIDL Flag List](/assets/docs/file-structures/shell-link-lnk/csidl_flag_list.txt)
+3. [Shell Link Flag List](/assets/docs/file-structures/shell-link-lnk/shell_link_flags.txt)
