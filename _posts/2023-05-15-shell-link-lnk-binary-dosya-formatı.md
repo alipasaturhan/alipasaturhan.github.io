@@ -8,7 +8,7 @@ tags: [windows, shell-link-lnk, file-structure]
 
 Hepimiz eskiden bir bilgisayardaki programı/oyunu kopyalarken kısayol dosyasını kopyalamak gibi bir hata yapmışızdır :) Şimdi gelin bu kısayol dosyalarından hıncımızı alalım.
 
-LNK dosyaları bilgisayarımızda farklı bir dizinde bulunan yazılımı açmaya yarayan dosyalardır. Bu dosyaları kötüye kullananlar da var normal kullananlarda, kullanmayı bilmeyenler de (bu biz oluyoruz). Bu dosya doğal olarak napar; asıl çalıştırmak istediği programın dizinini (yani hedef/target dosyayı) kendi içerisine alır ve kendisine çift tıklandığında sanki asıl programa çift tıklanıyormuş gibi davranır (aslında parametre vs. verme olayları var ama ona yazının ilerisinde değineceğiz)
+LNK dosyaları bilgisayarımızda farklı veya aynı dizinde bulunan yazılımı açmaya yarayan dosyalardır. Bu dosyaları kötüye kullananlar da var normal kullananlarda, kullanmayı bilmeyenler de (bu biz oluyoruz). Bu dosya doğal olarak napar; asıl çalıştırmak istediği programın dizinini (yani hedef/target dosyayı) referans alır ve çağırım işlemini bizim yerimize kendisi yapar (aslında parametre vs. verme olayları var ama ona yazının ilerisinde değineceğiz)
 
 Shell link binary dosya formatı aşağıda gösterildiği gibi bir dizi yapıdan/header'dan oluşur:
 

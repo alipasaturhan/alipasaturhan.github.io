@@ -3,7 +3,7 @@ layout: post
 title: Windows Portable Executable (PE) Dosyaları
 date: 2023-04-09 15:02 +0300
 categories: [Dosya Yapıları, Portable Executable (PE)]
-tags: [windows, portable-executable, file-structure]
+tags: [windows, portable-executable-pe, file-structure]
 ---
 
 Windows sistemlerinde çalıştırılabilir dosyaların formatıdır. Peki bu ne demek? Belleğe yüklenecek dosya (çalıştırılabilir program) kendi içinde bir düzene sahiptir. Bu düzene PE dosya formatı denir. PE dosya formatı sayesinde PE Loader dosyadaki verileri ayrıştırabilir ve bu bilgileri bir düzen içerisinde belleğe map edebilir.
@@ -46,9 +46,9 @@ typedef struct _IMAGE_DOS_HEADER {      // DOS .EXE header
   } IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;
 ```
 
-Yukarıdaki C struct’ı windows internal yapısında winnt.h header’dan bir parçadır. Bu kod PE yapısındaki DOS Header kısmını oluşturur. Bu başlığın tüm üyeleri MS-DOS sistemleri ilgilendirdiği için detaylı bir şekilde incelememize gerek yok. Yapıda bulunan son alan olan e_lfanew dışında;
+Yukarıdaki C struct’ı windows internal yapısında winnt.h header’dan bir parçadır. Bu kod PE yapısındaki DOS Header kısmını oluşturur. Bu başlığın tüm alanları MS-DOS sistemleri ilgilendirdiği için detaylı bir şekilde incelememize gerek yok. Yapıda bulunan son alan olan e_lfanew dışında;
 
-**e_lfanew:** Eğer PE dosyasının çalıştırıldığı sistem MS-DOS değilse bu üyeye bakılır. Bu üye DOS Stub başlığını atlayarak PE başlığına (NT Header) geçmemizi sağlar. Kısa tanımıyla PE başlığının adresini tutar.
+**e_lfanew:** Eğer PE dosyasının çalıştırıldığı sistem MS-DOS değilse bu alana bakılır. Bu üye DOS Stub başlığını atlayarak PE başlığına (NT Header) geçmemizi sağlar. Kısa tanımıyla PE başlığının adresini tutar.
 
 PE View programı tarafından parse edilip düzenli bir şekilde gösterilen DOS Header:
 
