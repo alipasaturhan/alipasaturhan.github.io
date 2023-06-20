@@ -849,11 +849,10 @@ PEB at 00000004d1af4000
 
 Bu arada not düşeyim; windows internal serisi sonunda (thread ve memory sonraki post konuları olacak sanırım) malware sample'larını analizini yapacağız ve analiz tekniklerinden bahsetmeye çalışacam. Ayrıca istek bir post veya herhangi bir sorunuz olursa bana mail, linkedin üzerinden ulaşabilirsiniz.
 
-Takip etmeyi bırakmayın, sağlıcakla kalın :)
+Takip etmeyi bırakmayın, sağlıcakla kalın :) 
 
 # Kaynakça ve Referanslar
 
 1. Windows Internals Seventh Edition Part 1 (2017), Microsoft
 2. Veriyapıları ve Algoritmalar, Toros Rıfat Çölkesen
 3. [Windows Process Internals: Memory Forensics [Part 2] – ldrmodules \| By Kirtar Oza - eForensics](https://eforensicsmag.com/windows-process-internals-a-few-concepts-to-know-before-jumping-on-memory-forensics-part-2-ldrmodules-by-kirtar-oza/)
-4. 
