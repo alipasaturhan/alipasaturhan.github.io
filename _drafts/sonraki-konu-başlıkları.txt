@@ -1,0 +1,41 @@
+Baştan söylemeliyim, bu konu hakkında zibilyon tane teknik var ve hepsini burada anlatmak biraz zor olur. Fakat hepsini genel olarak toplarsak üç adet bilinmesi gereken başlık oluşuyor.
+
+- Encoding
+  
+- Encryption
+  
+- Packing
+  
+
+Ayrıca obfuscation teknikleri de temelde ikiye ayrılır.
+
+- Rename obfuscation (Yeniden adlandırarak karmaşıklaştırma)
+  
+- Control-flow obfuscation (Akış kontrolü karmaşıklaştırma)
+  
+
+Bu arada yazıyı kısa tutmak istiyorum çünkü sözel bilgilerden çok bi an önce uygulamalı olarak bu teknikleri diğer yazılarda göstermek daha iyi olur.
+
+Obfuscation Teknikleri
+
+## Rename Obfuscation
+
+## Control-Flow Obfuscation
+
+Encoding
+
+## Oligomorphic Kod
+
+Çeşitli decrypter'lar kullanarak orjinal data'ya erişir
+
+## Polymorphic Kod
+
+Farklı kod bölümleri için farklı decrypter fonksiyonlar vardır. Oligomorphic'in gelişmiş versiyonudur.
+
+## Metamorphic Kod
+
+Encryption
+
+## Simetrik Algoritmalar
+
+## Asimetrik Algoritmalar

@@ -1,5 +1,6 @@
 ---
 order: 3
+icon: fa fa-folder
 ---
 
 # File Structures
@@ -23,3 +24,9 @@ order: 3
 1. [LNK File Format](/assets/docs/file-structures/shell-link-lnk/lnk_file_format.svg)
 2. [CSIDL Flag List](/assets/docs/file-structures/shell-link-lnk/csidl_flag_list.txt)
 3. [Shell Link Flag List](/assets/docs/file-structures/shell-link-lnk/shell_link_flags.txt)
+
+# Maware Analysis
+
+## Pack/Unpack
+
+1. [Packers Preview](/assets/docs/malware-analysis/pack-unpack/packers_and_types.pdf)

@@ -19,7 +19,7 @@ timezone: Europe/Istanbul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: P4WN3R                          # the main title
+title: P4WN3R                         # the main title
 
 tagline: kendi halinde bir reverser   # it will display as the sub-title
 
