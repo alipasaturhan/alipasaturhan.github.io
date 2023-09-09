@@ -66,7 +66,19 @@ Eğer bu dosya DOS sisteminde çalıştırılırsa, çalıştırılamayacağın�
 
 ![pe_file_analyzing_dos_stub_01.png](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/pe_file_analyzing_dos_stub_01.png)
 
-# ~~Rich Header (Undocumented)~~
+# Rich Header (Undocumented)
+
+Bu veri yığını genellikle Zengin Başlık olarak adlandırılır ve yalnızca Microsoft Visual Studio araç seti kullanılarak oluşturulan yürütülebilir dosyalarda bulunan belgelenmemiş bir yapıdır. Bu yapı, yürütülebilir dosyayı oluşturmak için kullanılan araçların adları veya türleri, belirli sürümleri ve derleme numaraları gibi bazı meta verileri tutar.
+
+Rich Header aslında PE dosya formatı yapısının bir parçası değil ve yürütülebilir dosyanın işlevselliğine müdahale etmeden tamamen sıfırlanabilir, sadece Microsoft'un Visual Studio araç seti kullanılarak oluşturulan herhangi bir yürütülebilir dosyaya eklediği bir şey.
+
+![rich_header_mechanism_01.png](/assets/img/2023-04-09-windows-portable-executable-pe-dosyaları/rich_header_mechanism_01.png)
+
+Zengin Başlık, bir imza (Zengin) ve XOR anahtarı olan 32 bitlik bir sağlama toplamı değerini takip eden bir XORlanmış veri yığınından oluşur.
+Şifrelenmiş veri bir DWORD imza DanS, dolgu için 3 sıfırlanmış DWORD, ardından her bir çifti bir girişi temsil eden DWORD çiftlerinden oluşur ve her giriş bir araç adı, yapı numarası ve kaç kez kullanıldığını içerir.
+Her DWORD çiftinde ilk çift yüksek WORD'de tip ID'sini veya ürün ID'sini ve düşük WORD'de yapı ID'sini, ikinci çift ise kullanım sayısını tutar.
+
+
 
 # NT Header
 
