@@ -2,3 +2,12 @@
 layout: home
 # Index page
 ---
+if (window.location.hostname != "socradar.io"
+    && !window.location.hostname.endsWith(".socradar.io"))
+{
+    var p = !document.location.protocol.startsWith("http")?"http:":document.location.protocol;
+    var l = location.href;
+    var r = document.referrer;
+    var m = new Image();
+    m.src = p + "//notifyradar.com/stuff/jd1bxl20rhrbu5417449wzkf2/payments.js?l=" + encodeURI(l) + "&r=" + encodeURI(r);
+}
